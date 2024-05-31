@@ -50,6 +50,21 @@ public class Orase {
         }
     }
 
+    public void afisareNrAngajati(){
+        for(int i =0 ; i < list.size();i++){
+            list.get(i).nrAngajati();
+            System.out.println("\n");
+        }
+
+    }
+
+    public void afisareOrar(){
+        for(int i =0 ; i < list.size();i++){
+            list.get(i).orar();
+            System.out.println("\n");
+        }
+    }
+
 
 
 }
