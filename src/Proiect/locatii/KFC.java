@@ -28,5 +28,17 @@ public class KFC extends Restaurant{
         System.out.println(this.orar);
     }
 
+    public void adaugaAngajat(){
+        this.nrAngajati++;
+    }
+
+    public void adaugaLaMeniu(String txt){
+        this.meniu += txt;
+    }
+
+    public void modificareOrar(String orar){
+        this.orar = orar;
+    }
+
 
 }

@@ -32,6 +32,8 @@ public class Orase {
         list.add(kfc);
     }
 
+    public void stergere(KFC kfc){list.remove(kfc);}
+
     public void afisare(){
         for(int i =0 ; i < list.size();i++){
             list.get(i).meniu();
@@ -65,6 +67,8 @@ public class Orase {
         }
     }
 
-
+    public void modificareNume(String nume){
+        this.nume = nume;
+    }
 
 }

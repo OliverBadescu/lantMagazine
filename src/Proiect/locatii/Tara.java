@@ -34,4 +34,14 @@ public class Tara{
     public void adaugare(Orase oras){
         list.add(oras);
     }
+
+    public void modificareNume(String nume){
+        this.nume = nume;
+    }
+
+    public void stergere(Orase oras){
+        list.remove(oras);
+    }
+
+
 }
